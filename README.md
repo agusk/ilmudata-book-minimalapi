@@ -1,5 +1,6 @@
 # Hallo .NET 8.0: Practical ASP.NET Core Minimal API
 
+<img src="images/thumbnail.png"  width="320">
 
 **Hallo .NET 8.0: Practical ASP.NET Core Minimal API** is a meticulously crafted guide that takes you on an explorative journey into the world of ASP.NET Core 8.0. Designed for a broad audience, from beginners to seasoned developers, this book dives deep into the practical aspects of Minimal API development. It starts with an introductory section that sets the foundation, highlighting the evolution and significance of Minimal APIs in the .NET framework. 
 

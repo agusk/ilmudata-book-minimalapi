@@ -1,0 +1,14 @@
+@efcoretrans_HostAddress = http://localhost:5038
+
+POST {{efcoretrans_HostAddress}}/createorder
+Content-Type: application/json
+Accept: application/json
+
+{
+    "customerName": "Ahmad Lee",
+    "products": [
+      { "name": "Product 1", "price": 10.99 },
+      { "name": "Product 2", "price": 15.50 }
+    ]
+}
+###

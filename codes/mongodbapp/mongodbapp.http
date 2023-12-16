@@ -1,0 +1,30 @@
+@mongodbapp_HostAddress = http://localhost:5100
+
+### Add a New Product
+POST {{mongodbapp_HostAddress}}/products
+Content-Type: application/json
+
+{
+    "name": "Sample Product 1",
+    "price": 9.99
+}
+
+### Get All Products
+GET {{mongodbapp_HostAddress}}/products
+
+### Get Product by ID
+GET {{mongodbapp_HostAddress}}/products/657599bc6d53d83cc2780da5
+
+### Update Product
+PUT {{mongodbapp_HostAddress}}/products/657599bc6d53d83cc2780da5
+Content-Type: application/json
+Accept: */*
+
+{
+    "id": "657599bc6d53d83cc2780da5",
+    "name": "Updated Product",
+    "price": 19.99
+}
+
+### Delete Product
+DELETE {{mongodbapp_HostAddress}}/products/657599bc6d53d83cc2780da5

@@ -1,0 +1,22 @@
+@fileapi_HostAddress = https://localhost:7010
+
+
+### Upload File
+POST {{fileapi_HostAddress}}/api/file/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Accept: application/json
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="description"
+
+This is a test file
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.txt"
+Content-Type: text/plain
+
+< ./example.txt
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Download File
+GET {{fileapi_HostAddress}}/api/file/download/example.txt

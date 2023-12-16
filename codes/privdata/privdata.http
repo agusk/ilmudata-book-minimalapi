@@ -1,0 +1,18 @@
+@privdata_HostAddress = http://localhost:5246
+
+
+### Create Employee
+POST {{privdata_HostAddress}}/employees
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "user 5",
+  "email": "user5@email.com",
+  "phone": "08134455483",
+  "birthdate": "11-des-1996"
+}
+
+### Get All Employees
+GET {{privdata_HostAddress}}/employees
+Accept: application/json

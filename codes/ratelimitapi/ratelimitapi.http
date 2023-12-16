@@ -1,0 +1,6 @@
+@ratelimitapi_HostAddress = http://localhost:5205
+
+GET {{ratelimitapi_HostAddress}}/weatherforecast
+Accept: application/json
+
+###

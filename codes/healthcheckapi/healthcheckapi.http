@@ -1,0 +1,6 @@
+@healthcheckapi_HostAddress = http://localhost:5049
+
+GET {{healthcheckapi_HostAddress}}/health
+Accept: application/json
+
+###

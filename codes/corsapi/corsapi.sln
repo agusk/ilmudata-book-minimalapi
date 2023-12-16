@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "corsapi", "corsapi.csproj", "{FA64CA6E-9245-4007-BDBF-1D8FB37A1DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA64CA6E-9245-4007-BDBF-1D8FB37A1DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA64CA6E-9245-4007-BDBF-1D8FB37A1DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA64CA6E-9245-4007-BDBF-1D8FB37A1DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA64CA6E-9245-4007-BDBF-1D8FB37A1DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F1C4818-C595-49CE-A3EE-9AF721C578BA}
+	EndGlobalSection
+EndGlobal

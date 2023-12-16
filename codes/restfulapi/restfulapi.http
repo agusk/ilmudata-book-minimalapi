@@ -1,0 +1,19 @@
+@restfulapi_HostAddress = http://localhost:5013
+
+GET {{restfulapi_HostAddress}}/items
+Accept: application/json
+
+###
+POST  {{restfulapi_HostAddress}}/items?item=item 20
+Accept: application/json
+
+###
+
+PUT {{restfulapi_HostAddress}}/items/2?item=item 2-edited
+Accept: application/json
+
+###
+DELETE  {{restfulapi_HostAddress}}/1
+Accept: application/json
+
+###

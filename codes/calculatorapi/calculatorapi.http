@@ -1,0 +1,41 @@
+@calculatorapi_HostAddress = http://localhost:5003
+
+###
+POST {{calculatorapi_HostAddress}}/api/calculator/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Number1": 10,
+  "Number2": 5
+}
+
+###
+POST {{calculatorapi_HostAddress}}/api/calculator/subtract
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Number1": 10,
+  "Number2": 5
+}
+
+###
+POST {{calculatorapi_HostAddress}}/api/calculator/multiply
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Number1": 10,
+  "Number2": 5
+}
+
+###
+POST {{calculatorapi_HostAddress}}/api/calculator/divide
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Number1": 10,
+  "Number2": 5
+}

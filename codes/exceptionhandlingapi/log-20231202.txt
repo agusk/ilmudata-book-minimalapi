@@ -1,0 +1,52 @@
+2023-12-02 21:39:08.067 +07:00 [INF] Now listening on: https://localhost:7152
+2023-12-02 21:39:08.090 +07:00 [INF] Now listening on: http://localhost:5100
+2023-12-02 21:39:08.093 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-02 21:39:08.094 +07:00 [INF] Hosting environment: Development
+2023-12-02 21:39:08.095 +07:00 [INF] Content root path: E:\GitHub\dotnet-bootcamp\book-dotnet8\exceptionhandlingapi
+2023-12-02 21:42:37.150 +07:00 [INF] Application is shutting down...
+2023-12-02 21:42:40.272 +07:00 [INF] Now listening on: https://localhost:7152
+2023-12-02 21:42:40.295 +07:00 [INF] Now listening on: http://localhost:5100
+2023-12-02 21:42:40.298 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-02 21:42:40.299 +07:00 [INF] Hosting environment: Development
+2023-12-02 21:42:40.300 +07:00 [INF] Content root path: E:\GitHub\dotnet-bootcamp\book-dotnet8\exceptionhandlingapi
+2023-12-02 21:43:31.017 +07:00 [INF] Application is shutting down...
+2023-12-02 21:43:34.201 +07:00 [INF] Now listening on: https://localhost:7152
+2023-12-02 21:43:34.224 +07:00 [INF] Now listening on: http://localhost:5100
+2023-12-02 21:43:34.226 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-02 21:43:34.227 +07:00 [INF] Hosting environment: Development
+2023-12-02 21:43:34.228 +07:00 [INF] Content root path: E:\GitHub\dotnet-bootcamp\book-dotnet8\exceptionhandlingapi
+2023-12-02 21:44:15.356 +07:00 [INF] Application is shutting down...
+2023-12-02 21:44:18.018 +07:00 [INF] Now listening on: https://localhost:7152
+2023-12-02 21:44:18.041 +07:00 [INF] Now listening on: http://localhost:5100
+2023-12-02 21:44:18.043 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-02 21:44:18.044 +07:00 [INF] Hosting environment: Development
+2023-12-02 21:44:18.045 +07:00 [INF] Content root path: E:\GitHub\dotnet-bootcamp\book-dotnet8\exceptionhandlingapi
+2023-12-02 21:45:29.164 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/weatherforecast - null null
+2023-12-02 21:45:29.239 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/weatherforecast - 307 0 null 76.0144ms
+2023-12-02 21:45:29.268 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7152/weatherforecast - null null
+2023-12-02 21:45:29.275 +07:00 [INF] Executing endpoint 'HTTP: GET /weatherforecast'
+2023-12-02 21:45:29.282 +07:00 [INF] Executed endpoint 'HTTP: GET /weatherforecast'
+2023-12-02 21:45:29.283 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7152/weatherforecast - 200 null application/json; charset=utf-8 14.7068ms
+2023-12-02 21:49:57.339 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5100/causeinternalerror - null null
+2023-12-02 21:49:57.343 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5100/causeinternalerror - 307 0 null 3.3518ms
+2023-12-02 21:49:57.355 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7152/causeinternalerror - null null
+2023-12-02 21:49:57.358 +07:00 [INF] Executing endpoint 'HTTP: GET /causeinternalerror'
+2023-12-02 21:49:57.359 +07:00 [INF] Executed endpoint 'HTTP: GET /causeinternalerror'
+2023-12-02 21:49:57.363 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Internal server error.
+   at Program.<>c.<<Main>$>b__0_2() in E:\GitHub\dotnet-bootcamp\book-dotnet8\exceptionhandlingapi\Program.cs:line 93
+   at lambda_method4(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2023-12-02 21:49:57.429 +07:00 [INF] Executing endpoint 'HTTP: GET /error'
+2023-12-02 21:49:57.433 +07:00 [ERR] An error occurred: Internal server error.
+System.Exception: Internal server error.
+   at Program.<>c.<<Main>$>b__0_2() in E:\GitHub\dotnet-bootcamp\book-dotnet8\exceptionhandlingapi\Program.cs:line 93
+   at lambda_method4(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.Invoke(HttpContext context)
+2023-12-02 21:49:57.448 +07:00 [INF] Setting HTTP status code 500.
+2023-12-02 21:49:57.473 +07:00 [INF] Writing value of type 'ProblemDetails' as Json.
+2023-12-02 21:49:57.480 +07:00 [INF] Executed endpoint 'HTTP: GET /error'
+2023-12-02 21:49:57.484 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7152/causeinternalerror - 500 null application/problem+json 128.6228ms
+2023-12-02 21:56:27.805 +07:00 [INF] Application is shutting down...

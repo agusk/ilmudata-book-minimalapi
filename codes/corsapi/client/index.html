@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CORS Test</title>
+</head>
+<body>
+    <h1>CORS Request Test</h1>
+    <button id="test-cors">Test CORS</button>
+    <script>
+        document.getElementById('test-cors').addEventListener('click', () => {
+            fetch(' https://localhost:7140/weatherforecast')
+                .then(response => response.text())
+                .then(data => console.log(data))
+                .catch(error => console.error('CORS Error:', error));
+        });
+    </script>
+</body>
+</html>

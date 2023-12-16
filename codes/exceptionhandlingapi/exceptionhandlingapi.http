@@ -1,0 +1,13 @@
+@exceptionhandlingapi_HostAddress = http://localhost:5100
+
+GET {{exceptionhandlingapi_HostAddress}}/weatherforecast
+Accept: application/json
+
+### Simulate Internal Server Error
+GET {{exceptionhandlingapi_HostAddress}}/causeinternalerror
+
+### Simulate File Not Found Error
+GET {{exceptionhandlingapi_HostAddress}}/causefileerror
+
+### Simulate Invalid Operation Error
+GET {{exceptionhandlingapi_HostAddress}}/causeinvalidoperation

@@ -1,0 +1,33 @@
+@secrestapi_HostAddress = http://localhost:5124
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIxIiwibmJmIjoxNzAyMjg1NjMxLCJleHAiOjE3MDI0NTg0MzEsImlhdCI6MTcwMjI4NTYzMX0.mE7s2rSIIT78b-bjp-5hhbgGEPGr1eJTww8Wg0DpRMo
+
+### register
+POST {{secrestapi_HostAddress}}/register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Email": "user1@email.com",
+  "Password": "pass123",
+  "Username": "user1",
+  "Name": "User 1"
+}
+
+### login
+POST {{secrestapi_HostAddress}}/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Password": "pass123",
+  "Username": "user1"
+}
+
+###
+
+GET {{secrestapi_HostAddress}}/profile
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###

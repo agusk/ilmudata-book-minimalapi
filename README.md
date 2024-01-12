@@ -10,6 +10,30 @@ In its final chapters, the book transitions into crucial topics like monitoring 
 
 **Hallo .NET 8.0: Practical ASP.NET Core Minimal API** is more than a technical manual; it's an essential tool for mastering the ASP.NET Core 8.0 framework. Whether you're developing your first web application or looking to upgrade existing skills, this book is an invaluable asset. Its practical approach, combined with in-depth coverage of essential topics, makes it a must-have for anyone aspiring to excel in the rapidly evolving field of web development. Embark on this learning adventure and arm yourself with the knowledge and skills to confidently navigate the world of ASP.NET Core 8.0.
 
+## Hands-on Lab Exercises
+This is a list of the exercises in the book. Each exercise is a hands-on lab that guides readers in building a real-world application using ASP.NET Core 8.0 Web API.
+
+* Exercise 1: Hello World - ASP.NET Core Minimal API
+* Exercise 2: RESTful Service Request and Response
+* Exercise 3: Swagger API Documentation
+* Exercise 4: Buidling a Calculator Service
+* Exercise 5: Upload and Download File Web
+* Exercise 6: Exception Handling and Logging
+* Exercise 7: Middleware and Filters
+* Exercise 8: EF Core 8.0 Code First and ASP.NET Core Minimal API
+* Exercise 9: EF Core 8.0 Database First and ASP.NET Core Minimal API
+* Exercise 10: Database Transaction
+* Exercise 11: NoSQL Database and ASP.NET Core Minimal API
+* Exercise 12: Authentication and Authorization
+* Exercise 13: Role-Based Access Control (RBAC)
+* Exercise 14: Data Privacy and Protection
+* Exercise 15: Rate Limiting and Throttling
+* Exercise 16: Configuring CORS in ASP.NET Core 8.0 Minimal API
+* Exercise 17: Health Check and Monitoring
+* Exercise 18: Deploying to Web Server IIS
+* Exercise 19: Deploying to Linux Server with Nginx
+* Exercise 20: Deploying to Container Platforms
+
 ## How to Buy
 
 You can buy this book the following online stores:
